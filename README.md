@@ -1,9 +1,7 @@
 # 📝 Pawlow's HyLang
-
 > A tool for generating `.lang` files from `.toml` files to improve project organization and localization management.
 
 ## 📖 Overview
-
 The tool streamlines the process of managing language files in your projects by allowing you to define translations in a structured TOML format and automatically generate the corresponding `.lang` files used by your application/ mod.
 
 ## ✨ Features
@@ -13,11 +11,10 @@ The tool streamlines the process of managing language files in your projects by 
 - 🔧 **Build integration** - Integrate into your build pipeline for automated generation
 
 ## 📦 Installation
-
-Ensure Python 3 is installed
+> python3 -m venv venv && source venv/bin/activate && pip install .
 
 ## 🚀 Usage
-
+### CLI-Mode
 Create a TOML file with your translations:
 
 **translations.toml**
@@ -29,9 +26,8 @@ ui:
 ```
 
 Generate your `.lang` files:
-
 ```bash
-hylang generate translations.toml --output ./src/main/resources/Server/Languages/
+./main.py --cli -i ./examples/source_example.yaml --verbose
 ```
 
 **Result:**
@@ -49,8 +45,14 @@ ui.farewell=Goodbye!
 ui.welcome_message=Welcome!
 ```
 
-## ⚙️ Configuration
+### GUI-Mode
+Create a TOML file with your translations:
 
+```bash
+./main.py
+```
+
+## ⚙️ Configuration
 You can customize the output format and behavior using a config file:
 
 **hylang.config.toml**
@@ -60,9 +62,14 @@ directory = "./src/main/resources/Server/Languages"
 ```
 
 ## 🤝 Contributing
+### 💎 Fan of my work?
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E5H93UN)
 
+### 🌟 Projects using HyLang
+- [**Pawlow's PermKit**](https://github.com/ThePawlow/Pawlows-PermKit) - A permission management system utilizing HyLang for localization
+
+## 🛠️ PR
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
-
 MIT License - see LICENSE file for details

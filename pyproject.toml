@@ -1,0 +1,20 @@
+[project]
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+name = "pawlows-hylang"
+version = "1.0.0"
+description = "pawlows-hylang"
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Ramon Pawlowski (ThePawlow)" },
+]
+keywords = [ "hytale", "language", "i18n", "pawlow", "thepawlow", "tool" ]
+
+dependencies = [
+    "pytest",
+    "pytest_cases"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ThePawlow/Pawlows-HyLang"
