@@ -13,6 +13,8 @@ keywords = [ "hytale", "language", "i18n", "pawlow", "thepawlow", "tool" ]
 
 dependencies = [
     "pyyaml",
+    "tkinter",
+    "customtkinter",
     "pytest",
     "pytest_cases"
 ]
