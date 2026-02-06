@@ -7,11 +7,10 @@
 The tool streamlines the process of managing language files in your projects by allowing you to define translations in a structured TOML format and automatically generate the corresponding `.lang` files used by your application/ mod.
 
 ## ✨ Features
-
-- 🔄 **TOML to .lang conversion** - Write your translations in easy-to-read TOML format
-- 📁 **Improved organization** - Keep all your translations in a centralized, structured format
-- ⚡ **Automated generation** - Generate multiple `.lang` files from a single source
-- 🔀 **Version control friendly** - TOML files are easier to diff and merge than scattered language files
+- ✅ **Single source of truth** - Maintain all translations in one place
+- 🤝 **Better collaboration** - TOML is human-readable and easy for translators to work with
+- 📈 **Scalability** - Easily manage translations across multiple languages and projects
+- 🔧 **Build integration** - Integrate into your build pipeline for automated generation
 
 ## 📦 Installation
 
@@ -23,10 +22,10 @@ Create a TOML file with your translations:
 
 **translations.toml**
 ```toml
-[en_US]
-greeting = "Hello, World!"
-farewell = "Goodbye!"
-welcome_message = "Welcome to our application"
+ui:
+  greeting: Hello, World!
+  farewell: Goodbye!
+  welcome_message: Welcome!
 ```
 
 Generate your `.lang` files:
@@ -45,9 +44,9 @@ Each `.lang` file contains the key-value pairs for that locale:
 
 **en_US.lang**
 ```
-greeting=Hello, World!
-farewell=Goodbye!
-welcome_message=Welcome to our application
+ui.greeting=Hello, World!
+ui.farewell=Goodbye!
+ui.welcome_message=Welcome!
 ```
 
 ## ⚙️ Configuration
@@ -59,13 +58,6 @@ You can customize the output format and behavior using a config file:
 [output]
 directory = "./src/main/resources/Server/Languages"
 ```
-
-## 💡 Why Pawlows-HyLang?
-
-- ✅ **Single source of truth** - Maintain all translations in one place
-- 🤝 **Better collaboration** - TOML is human-readable and easy for translators to work with
-- 📈 **Scalability** - Easily manage translations across multiple languages and projects
-- 🔧 **Build integration** - Integrate into your build pipeline for automated generation
 
 ## 🤝 Contributing
 
