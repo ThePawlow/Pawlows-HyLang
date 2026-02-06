@@ -1,12 +1,12 @@
 # 📝 Pawlow's HyLang
-> A tool for generating `.lang` files from `.toml` files to improve project organization and localization management.
+> A tool for generating `.lang` files from `.yaml` files to improve project organization and localization management.
 
 ## 📖 Overview
-The tool streamlines the process of managing language files in your projects by allowing you to define translations in a structured TOML format and automatically generate the corresponding `.lang` files used by your application/ mod.
+The tool streamlines the process of managing language files in your projects by allowing you to define translations in a structured YAML format and automatically generate the corresponding `.lang` files used by your application/ mod.
 
 ## ✨ Features
 - ✅ **Single source of truth** - Maintain all translations in one place
-- 🤝 **Better collaboration** - TOML is human-readable and easy for translators to work with
+- 🤝 **Better collaboration** - YAML is human-readable and easy for translators to work with
 - 📈 **Scalability** - Easily manage translations across multiple languages and projects
 - 🔧 **Build integration** - Integrate into your build pipeline for automated generation
 
@@ -15,10 +15,10 @@ The tool streamlines the process of managing language files in your projects by 
 
 ## 🚀 Usage
 ### CLI-Mode
-Create a TOML file with your translations:
+Create a YAML file with your translations:
 
-**translations.toml**
-```toml
+**translations.yaml**
+```yaml
 ui:
   greeting: Hello, World!
   farewell: Goodbye!
@@ -46,7 +46,7 @@ ui.welcome_message=Welcome!
 ```
 
 ### GUI-Mode
-Create a TOML file with your translations:
+Create a YAML file with your translations:
 
 ```bash
 ./main.py
@@ -55,8 +55,8 @@ Create a TOML file with your translations:
 ## ⚙️ Configuration
 You can customize the output format and behavior using a config file:
 
-**hylang.config.toml**
-```toml
+**hylang.config.yaml**
+```yaml
 [output]
 directory = "./src/main/resources/Server/Languages"
 ```
