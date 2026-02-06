@@ -11,7 +11,7 @@ The tool streamlines the process of managing language files in your projects by 
 - 🔧 **Build integration** - Integrate into your build pipeline for automated generation
 
 ## 📦 Installation
-> python3 -m venv venv && source venv/bin/activate && pip install .
+> python3 -m venv .venv && source .venv/bin/activate.fish && pip install . --upgrade pip
 
 ## 🚀 Usage
 ### CLI-Mode
