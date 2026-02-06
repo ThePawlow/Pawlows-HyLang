@@ -5,7 +5,7 @@ version = "1.0.0"
 description = "pawlows-hylang"
 readme = "README.md"
 requires-python = ">=3.9,<4.0"
-icense-files = ["LICENSE"]
+license-files = ["LICENSE"]
 authors = [
     { name = "Ramon Pawlowski (ThePawlow)" },
 ]
