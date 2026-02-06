@@ -12,7 +12,7 @@ authors = [
 keywords = [ "hytale", "language", "i18n", "pawlow", "thepawlow", "tool" ]
 
 dependencies = [
-    "yaml",
+    "pyyaml",
     "pytest",
     "pytest_cases"
 ]
