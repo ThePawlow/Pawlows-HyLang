@@ -1,8 +1,17 @@
 # 📝 Pawlow's HyLang
+<div align="center">
+
 > A tool for generating `.lang` files from `.yaml` files to improve project organization and localization management.
 
-## 📖 Overview
-The tool streamlines the process of managing language files in your projects by allowing you to define translations in a structured YAML format and automatically generate the corresponding `.lang` files used by your application/ mod.
+### Fan of my work?
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E5H93UN)
+
+![GitHub stars](https://img.shields.io/github/stars/ThePawlow/Pawlows-PermKit?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ThePawlow/Pawlows-PermKit?style=social)
+
+</div>
+
+---
 
 ## ✨ Features
 - ✅ **Single source of truth** - Maintain all translations in one place
